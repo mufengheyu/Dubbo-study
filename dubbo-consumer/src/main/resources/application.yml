@@ -1,0 +1,17 @@
+server:
+  port: 8081 #todo 注意provider和consumer端口号不一样哦
+
+# todo
+#服务名称
+dubbo:
+  application:
+    name: consumer-application
+  #协议名称
+  protocol:
+    name: dubbo
+  #端口号
+    port: 20880
+  #注册中心zookeeper地址
+  registry:
+    address: zookeeper://127.0.0.1:2181
+
